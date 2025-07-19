@@ -39,3 +39,6 @@ This is a personal portfolio website built with HTML, CSS, and JavaScript (React
 ## License
 
 This project is open source and free to use for personal portfolio purposes.
+
+## Future additions:
+Yet to implement Javascript
