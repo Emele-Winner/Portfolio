@@ -1,0 +1,490 @@
+body {
+    padding: 0;
+    background-color: rgb(8, 15, 22);
+    color: rgba(0, 255, 255, 0.63);
+    font-size: 1rem;
+}
+
+* {
+    margin: 0;
+}
+
+.INTRO,
+.about div,
+.skills,
+.projects,
+.communication div {
+    margin: 1rem;
+}
+
+.communication .me {
+    margin: 0rem;
+}
+
+#profile_pic {
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    position: sticky;
+    top: 0;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    margin-bottom: 1em;
+    background-color: rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(10px)
+}
+
+header div {
+    font-size: 0.8rem;
+    padding: 1em;
+}
+
+
+#name {
+    font-family: monospace;
+}
+
+header div svg {
+    width: 30px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+
+.INTRO h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.INTRO h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+
+.INTRO p,
+.about p {
+    margin-top: 1em;
+    line-height: 1.4rem;
+    color: rgba(245, 245, 245, 0.637);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.INTRO div button {
+    width: fit-content;
+    background-color: rgb(8, 15, 22);
+    color: rgba(0, 255, 255, 0.63);
+    border: solid thin rgba(0, 255, 255, 0.63);
+    border-radius: 1em;
+    padding: 0.7em;
+    margin-top: 2em;
+    padding-right: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1.3em;
+}
+
+#worklook {
+    color: rgb(8, 15, 22);
+    background-color: rgba(0, 255, 255, 0.63);
+    border: none;
+    margin-right: 2em;
+}
+
+.sect_2 {
+    background-color: rgba(7, 18, 29, 0.596);
+}
+
+.about {
+    padding-bottom: 3em;
+    margin-bottom: 5em;
+    color: white;
+    background-color: rgba(7, 18, 29, 0.596);
+}
+
+.about h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.education {
+    margin-bottom: 1em;
+}
+
+.education,
+.graduation {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid rgba(255, 255, 255, 0.103) thin;
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+.education div p,
+.graduation div p {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.graduation h3,
+.education h3 {
+    color: rgba(0, 255, 255, 0.63);
+}
+
+.graduation div svg {
+    color: rgba(0, 255, 255, 0.63);
+    width: 1em;
+}
+
+.graduation div svg,
+.education div svg {
+    border: none;
+    background-color: rgb(29, 49, 49);
+    border-radius: 50%;
+    padding: 0.3em;
+}
+
+.education div svg {
+    color: rgba(0, 255, 255, 0.63);
+    width: 1em;
+}
+
+.skills h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.Languages div div p,
+.devtools div div p {
+    color: rgba(255, 255, 255, 0.589);
+}
+
+.Languages div,
+.devtools div {
+    padding-left: 1em;
+}
+
+.skills div .devtools h1,
+.skills div .Languages h1 {
+    font-family: monospace;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    background-color: rgba(0, 255, 255, 0.63);
+    color: rgb(8, 15, 22);
+    text-align: left;
+    font-size: 1.3rem;
+    border-bottom: solid thin;
+}
+
+.skills div .devtools,
+.skills div .Languages {
+    border-radius: 0.7em;
+    border: thin gray solid;
+}
+
+.Languages div h3,
+.devtools div h3 {
+    font-size: 1rem;
+}
+
+.skills div .Languages {
+    margin-right: 1em;
+}
+
+.skills div .Languages,
+.skills div .devtools {
+    margin-bottom: 2em;
+    height: 280px;
+    width: 100%;
+    font-family: monospace;
+    background-color: rgba(7, 18, 29, 0.596);
+    color: white;
+}
+
+.currently div {
+    display: flex;
+    justify-content: center;
+}
+
+#react {
+    margin-right: 0.5em;
+}
+
+.currently h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.4em;
+    border-radius: 1em;
+    border: solid thin rgba(0, 255, 255, 0.63);
+    background-color: rgba(7, 18, 29, 0.596);
+}
+
+.projects {
+    margin: 0;
+    background-color: rgba(7, 18, 29, 0.596);
+}
+
+.communication {
+    margin-top: 5em;
+}
+
+.communication div h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.communication form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1em;
+    background-color: rgba(7, 18, 29, 0.596);
+    color: rgba(255, 255, 255, 0.404);
+    padding: 1.5em;
+    border: solid thin;
+    display: flex;
+    flex-direction: column;
+}
+
+.communication form input {
+    background-color: rgba(17, 33, 49, 0.507);
+    height: 2.5rem;
+    padding-left: 1em;
+    border: none;
+    border-radius: 0.7em;
+    width: 95%;
+}
+
+svg {
+    width: 50%;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: rgba(0, 255, 255, 0.63);
+}
+
+
+.communication form button svg {
+    width: 20%;
+    margin-right: 1em;
+}
+
+.communication form button {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    background-color: rgba(0, 255, 255, 0.63);
+    width: 50%;
+    border: none;
+    padding: 0.5em;
+    padding-left: 1em;
+    border-radius: 0.7em;
+}
+
+#email,
+#location {
+    align-items: center;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    border-radius: 1em;
+    background-color: rgba(7, 18, 29, 0.596);
+    padding: 1.5em;
+    border: solid thin grey;
+}
+
+.contact p {
+    color: rgba(255, 255, 255, 0.404);
+}
+
+
+#location {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#email svg,
+#location svg {
+    width: 10%;
+}
+
+svg {
+    color: rgba(0, 255, 255, 0.63);
+}
+
+.contact h2 {
+    font-family: monospace;
+}
+
+a svg {
+    color: white;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    padding: 2em 1em;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 28%);
+    /* Fixed 3 columns */
+    grid-template-rows: repeat(3, auto);
+    /* Fixed 3 rows */
+    gap: 10px;
+    justify-content: center;
+}
+
+.social-grid a {
+    color: white;
+    border: solid thin none;
+    border-radius: 0.5em;
+    background-color: rgba(17, 33, 49, 0.507);
+    padding: 1em;
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer {
+    padding: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.404);
+}
+
+footer button {
+    width: fit-content;
+    background-color: rgb(8, 15, 22);
+    color: rgba(0, 255, 255, 0.63);
+    border: solid thin rgba(0, 255, 255, 0.63);
+    border-radius: 1em;
+    padding: 0.7em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding-right: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1.3em;
+}
+
+footer hr {
+    color: grey;
+    margin-bottom: 2em;
+}
+
+@media (min-width: 768px) {
+    .sect_3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Languages,
+    .devtools {
+        width: 45%;
+        height: 200px;
+    }
+
+    #create {
+        min-width: 150px;
+    }
+
+    .about {
+        min-width: 10px;
+    }
+
+    .first_sect {
+        margin: 2em;
+    }
+
+    .education,
+    .graduation {
+        padding: none;
+        width: 40%;
+    }
+
+    .school {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    #profile_pic {
+        height: 40%;
+        width: fit-content;
+    }
+
+    .sect_2 {
+        display: flex;
+    }
+
+    .first_sect {
+        min-height: 450px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .communication {
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 40% 50%;
+    }
+
+    footer {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+    footer #stuff {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+}
