@@ -368,6 +368,7 @@ a svg {
     grid-template-rows: repeat(3, auto);
     /* Fixed 3 rows */
     gap: 10px;
+    row-gap: 40px;
     justify-content: center;
 }
 
