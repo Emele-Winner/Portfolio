@@ -420,6 +420,7 @@ footer hr {
     .sect_3 {
         display: flex;
         justify-content: center;
+        padding: 3em;
     }
 
     .Languages,
